@@ -24,7 +24,7 @@ Register and get your API key for google localization services. Then add it as a
 ```
 export localizationApiKey = <your google key>
 ```
-Now you can use the app by command line just typing: node app.js <your city or adress> <when you wanna know>
+Now you can use the app by command line just typing: node app.js -your city or adress- -when you wanna know-
 
 Where:
 ```

@@ -39,7 +39,7 @@ node app.js Castelvetrano 0
 
 //OR JUST
 
-node app.js Castelvetrano 0
+node app.js Castelvetrano
 
 ```
 Or the weather in Katowice of tomorrow:

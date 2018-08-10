@@ -9,7 +9,6 @@ Just clone this folder by
 
 ```
 git clone https://github.com/GiovanniFerrara/weatherApp.git
-
 ```
 
 and run "npm" install to install the dependencies
@@ -32,7 +31,6 @@ Where:
 <when you wanna know>  ==> 0 (today), 1 (tomorrow), 2 (after tomorrow) ...
 
 <your city>  ==> 90100 (Postal code), Palermo, Street Ballarò 99
-
 ```
 
 For example, if I want to fecth the weather in Castelvetrano of today:
@@ -47,7 +45,6 @@ node app.js Castelvetrano 0
 Or the weather in Katowice of tomorrow:
 ```
 node app.js Katowice 1
-
 ```
 
  Built With

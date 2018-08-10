@@ -16,17 +16,20 @@ if(!day){
 }
 
 geocode(place,options)
+
 .then(data=>{
   return weather(data.lat,data.lon,options)
 })
 .then(newData=>{
-    console.log(time(newData,day));
-    console.log(newData.daily.data[day].summary)
-    console.log('Massima temperatura ',newData.daily.data[day].temperatureHigh+ " C");
-    console.log('Minima temperatura ',newData.daily.data[day].temperatureLow+ " C")
+    if(!day==0){
+        console.log("Forecast for",time(newData,day), "from now");
+    }
+    console.log(newData.daily.data[day].summary);
+    console.log('Max temperature',newData.daily.data[day].temperatureHigh+ " C");
+    console.log('Min temperature',newData.daily.data[day].temperatureLow+ " C");
 })
 .catch(function(err){
     console.log(err)
 })
   
- 
+  

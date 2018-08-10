@@ -26,7 +26,7 @@ var time    =(object,day)=>{
         seconds  -= hrs*3600;
         var mnts = Math.floor(seconds / 60);
         seconds  -= mnts*60;
-        return (days+" days, "+hrs+" Hrs, "+mnts+" Minutes, "+seconds+" Seconds");
+        return (days+" days, "+hrs+" Hrs");
         } 
 
 module.exports={weather,time};
